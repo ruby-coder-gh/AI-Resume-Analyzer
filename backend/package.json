@@ -1,0 +1,22 @@
+{
+  "name": "resume-analyzer-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Resume Analyzer with OpenAI integration",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.67.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
